@@ -1,0 +1,181 @@
+body{
+    background-color: rgba(68, 67, 67, 0.397);
+    font-family: cursive;
+}
+h1{
+    font-family: fantasy;
+    text-align: center;
+    color: rgb(71, 71, 71);
+    font-size: 80px;
+    text-shadow: 6px 0px 5px white;
+}
+h4{
+    font-size: 16;
+    margin-left: 1%;
+}
+h2{
+    font-family: fantasy;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 55px;
+    text-shadow: 6px 0px 5px white;   
+}
+.info{
+    margin-left: 12px;
+}   
+.menu{
+    position: sticky;
+    top: 2%;
+    z-index: +1;
+}
+    video{
+        position: absolute;
+        left: 17%;
+        top: 2%;
+        height: 50%;
+        z-index: -1;
+        opacity: .6;
+    }
+.sonido{
+    float: right;
+    margin-right: 15%;
+}
+#sect1{
+    position: relative;
+    overflow: hidden;
+  }
+.icon{
+    height: 26px;
+    width: 32px;
+    margin: auto;
+    margin-top: 2%;
+    border-radius: 20%;
+    padding: 5px;
+    display: block;
+}
+.intro{
+    font-family: cursive;
+    margin-right: 2%;
+    z-index: -1;
+}
+.contenedor{
+    width: 19%;
+    height: 11%;
+    float: left;
+    transition: 1.5s;
+    text-align: center;
+    color: white;
+}
+.contenedor:hover{
+    transition: 0.7s;
+    height: 11%;
+    width: 18%;
+    border-radius: 13% 13% 13% 13%;
+}
+#uno{
+    margin-left: 2%;
+    background-color: rgb(94, 93, 93);
+}
+.otra{
+    text-decoration: none;
+    color: white;
+}
+#dos{
+    background-color: rgb(94, 93, 93);
+}
+#tres{
+    background-color: rgb(94, 93, 93);
+}
+#cuatro{
+    background-color: rgb(94, 93, 93);
+}
+#cinco{
+    background-color: rgb(94, 93, 93);
+}
+#icono:hover{   
+    transition: 0s;
+    box-shadow: 5px 5px white;
+    box-shadow: 3px 3px rgb(172, 172, 172);
+}
+.contenedor:hover .icon{
+    transition: .7s;
+}
+.caja1{
+    background-color: rgb(153, 152, 152);
+    width: 96%;
+    height: 27%;
+    float: left;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.coche1{
+    width: 27%;
+    height: 29%;
+    margin-left: 20px;
+    margin-top: 1%;
+}
+.coche2{
+    width: 27%;
+    height: 29%;
+    margin-left: 27px;
+    margin-top: 1%;
+}
+.abajo{
+    font-family: cursive;
+    margin-bottom: 0px;
+}
+.pie{
+    background-color: rgb(77, 75, 75);
+    margin-top: 0%;
+    max-height: 200px;
+    width: 97%;
+}
+.loginsta{
+    height: 25px;
+    width: auto;
+    border-radius: 20%;
+    float: left;
+    margin-top: 2px;
+}
+.logmail{
+    height: 30px;
+    width: auto;
+    border-radius: 20%;
+    float: left;
+}
+.logotwit{
+    height: 30px;
+    width: auto;
+    border-radius: 20%;
+    float: left;
+}
+.logoface{
+    height: 30px;
+    width: auto;
+    border-radius: 20%;
+    float: left;
+}
+.logiz{
+    float: left;
+}
+.twitter{
+    float: left;
+}
+.Facebook{
+    float: left;
+}
+a{
+    color: rgb(161, 161, 161);
+    text-decoration: none;
+}
+ul{
+    list-style: none
+}
+.telf{
+    float: top;
+    margin-left: 90%;   
+    position: relative;
+    bottom: 200px;
+    font-size: 13px;
+    color:rgba(226, 226, 226, 0.445) ;
+}
